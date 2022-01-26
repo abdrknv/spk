@@ -1,0 +1,40 @@
+@import url(../libs/montserrat/stylesheet.css);
+*{
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  text-decoration: none;
+  list-style-type: none;
+  font-family: Montserrat, sans-serif;
+}
+.container {
+  max-width: 1200px;
+  width: 100%;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.button{
+  background: #00FEFF;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 17px;
+  letter-spacing: 0.05em;
+  text-transform: uppercase;
+  color: #002047;
+  transform: matrix(1, 0, 0, 1, 0, 0);
+  cursor: pointer;
+}
+@import "header";
+@import "it";
+@import "description";
+@import "service";
+@import "effect";
+@import "goals";
+@import "plug";
+@import "price";
+@import "clients";
+@import "form";
+@import "footer";
+@import "media";
+

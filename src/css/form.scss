@@ -1,0 +1,59 @@
+.form{
+  background: url("../images/form/bck.jpg") center/cover no-repeat;
+
+  &__content{
+    display: flex;
+    justify-content: center;
+    column-gap: 128px;
+  }
+  &__left{
+    width: 40%;
+  }
+  &__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 36px;
+    line-height: 120%;
+    color: #FFFFFF;
+    margin: 102px 0 156px;
+  }
+  &__right{
+    width: 60%;
+  }
+  &__spk{
+    margin-top:50px;
+    &-block {
+      width: 100%;
+      margin-bottom: 20px;
+      display: flex;
+    }
+  }
+  &__input{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 18px;
+    line-height: 140%;
+    color: #001E42;
+    width: 343px;
+    height: 42px;
+    left: 20px;
+    padding-left: 20px;
+  }
+  &__radio{
+    background: #ECECEC;
+    width: 20px;
+    height: 20px;
+    margin-right: 7px;
+  }
+  &__text{
+    font-style: normal;
+    font-weight: normal;
+    font-size: 10px;
+    line-height: 140%;
+    color: #A5AAAF;
+  }
+  &__btn{
+    width: 343px;
+    height: 50px;
+  }
+}

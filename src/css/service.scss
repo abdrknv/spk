@@ -1,0 +1,25 @@
+.service{
+  padding-top: 61px ;
+  &__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    color: #001E42;
+  }
+  &__row{
+    padding-top: 66px;
+    display: flex;
+    flex-wrap: wrap;
+    column-gap: 109px;
+    &-card{
+      display: flex;
+      column-gap: 26px;
+      width: calc(33% - 109px);
+      justify-content: center;
+      align-items: center;
+      padding-bottom: 76px;
+    }
+  }
+
+}

@@ -1,0 +1,43 @@
+.clients{
+margin-bottom: 16px;
+  &__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 50px;
+    line-height: 61px;
+    color: #001E42;
+    margin-bottom: 38px;
+  }
+  &__row{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 80px;
+}
+    &__subtitle{
+      font-style: normal;
+      font-weight: bold;
+      font-size: 20px;
+      line-height: 24px;
+      color: #A5AAAF;
+    }
+  &__descr{
+    display: flex;
+    column-gap: 30px;
+    &-left{
+      width: calc(50% - 15px);
+      &-text{
+        margin-top: 27px;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 13px;
+        line-height: 200%;
+        color: #A5AAAF;
+      }
+    }
+    &-right{
+      width: calc(50% - 15px);
+
+    }
+  }
+}

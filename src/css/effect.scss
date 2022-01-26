@@ -1,0 +1,39 @@
+.effect{
+padding-top: 93px;
+  &__title{
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 29px;
+    color: #001E42;
+    padding-bottom: 31px;
+  }
+  &__row{
+    display: flex;
+    column-gap: 32px;
+    padding-bottom: 42px;
+    &-left{
+      &-descr{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        color: #252D37;
+      }
+    }
+  }
+  &__right{
+    &-descr{
+      font-style: normal;
+      font-weight: normal;
+      font-size: 18px;
+      line-height: 140%;
+      color: #252D37;
+    }
+  }
+  &__btn{
+    width: 253px;
+    height: 50px;
+    text-align: center;
+  }
+}

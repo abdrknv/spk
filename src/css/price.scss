@@ -1,0 +1,125 @@
+.price{
+  padding: 115px 0 92px;
+  &__row{
+    display: flex;
+    column-gap: 30px;
+
+    &-left{
+      width: calc(60% - 30px);
+
+      &-title{
+        font-style: normal;
+        font-weight: bold;
+        font-size: 50px;
+        line-height: 61px;
+        color: #001E42;
+        margin-bottom: 33px;
+      }
+      &-text{
+        font-style: normal;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 140%;
+        color: #252D37;
+      }
+      &-btn{
+        background-color: transparent;
+        margin-top: 4px;
+        border: 2px solid #001E42;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #001E42;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        width: 157px;
+        height: 50px;
+        cursor: pointer;
+        &:hover {
+          background: #F2F2F2;
+          transition: .3s;
+        }
+      }
+
+      &-button{
+        margin-top: 4px;
+        width: 228px;
+        height: 50px;
+        background-color: transparent;
+        border: 2px solid #001E42;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 14px;
+        line-height: 17px;
+        letter-spacing: 0.05em;
+        text-transform: uppercase;
+        color: #001E42;
+        transform: matrix(1, 0, 0, 1, 0, 0);
+        transition: .3s;
+        cursor: pointer;
+        &:hover {
+          background: #F2F2F2;
+          transition: .3s;
+        }
+      }
+    }
+    &-right{
+      display: flex;
+      margin-top: 39px;
+      column-gap: 12px;
+      &-card{
+        width: 259px;
+        height: 321px;
+        border: 2px solid #001E42;
+        &-title{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 140%;
+          text-align: center;
+          color: #001E42;
+          margin: 38px 0 16px;
+          }
+        &-subtitle{
+          font-style: normal;
+          font-weight: bold;
+          font-size: 26px;
+          line-height: 140%;
+          text-align: center;
+          text-transform: uppercase;
+          color: #001E42;
+          margin-bottom: 6px;
+        }
+        &-num{
+          font-style: normal;
+          font-weight: bold;
+          font-size: 70px;
+          line-height: 115%;
+          text-align: center;
+          color: #001E42;
+          margin-bottom: 3px;
+        }
+        &-value{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 20px;
+          line-height: 24px;
+          text-align: center;
+          color: #001E42;
+          margin-bottom: 28px;
+        }
+        &-descr{
+          font-style: normal;
+          font-weight: normal;
+          font-size: 18px;
+          line-height: 140%;
+          text-align: center;
+          color: #001E42;
+        }
+      }
+    }
+  }
+
+}
